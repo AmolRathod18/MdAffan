@@ -50,6 +50,7 @@
 }
 
 :root[data-theme="light"] .wordmark,
+:root[data-theme="light"] .brand-mark,
 :root[data-theme="light"] .hero h1,
 :root[data-theme="light"] .section-title,
 :root[data-theme="light"] .journey-text h3,
@@ -58,6 +59,10 @@
 :root[data-theme="light"] .contact-heading h2,
 :root[data-theme="light"] .form-heading h3 {
   color: #18232d;
+}
+
+:root[data-theme="light"] .brand-mark {
+  border-color: rgba(8, 127, 117, .35);
 }
 
 :root[data-theme="light"] .wordmark small,
