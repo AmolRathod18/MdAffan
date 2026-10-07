@@ -1,0 +1,14 @@
+:root[data-page] main > section {
+  display: none;
+}
+
+:root[data-page="home"] main > #home,
+:root[data-page="about"] main > #about,
+:root[data-page="about"] main > .education-section,
+:root[data-page="skills"] main > #skills,
+:root[data-page="skills"] main > .workflow-section,
+:root[data-page="projects"] main > #projects,
+:root[data-page="certificates"] main > #certificates,
+:root[data-page="contact"] main > #contact {
+  display: block;
+}
