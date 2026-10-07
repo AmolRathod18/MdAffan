@@ -300,6 +300,10 @@
 }
 
 @media (max-width: 900px) {
+  .hero h1 .hero-rotating-line {
+    font-size: .9em;
+  }
+
   .menu-toggle {
     display: grid;
     place-items: center;
@@ -421,6 +425,10 @@
 
   .hero h1 {
     font-size: clamp(40px, 10vw, 58px);
+  }
+
+  .hero h1 .hero-rotating-line {
+    font-size: .9em;
   }
 
   .hero-desc {
@@ -702,6 +710,10 @@
 
   .hero h1 {
     font-size: clamp(37px, 10vw, 44px);
+  }
+
+  .hero h1 .hero-rotating-line {
+    font-size: .82em;
   }
 
   .button {

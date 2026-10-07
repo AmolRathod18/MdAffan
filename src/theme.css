@@ -65,6 +65,10 @@
   border-color: rgba(8, 127, 117, .35);
 }
 
+:root[data-theme="light"] .wordmark-name {
+  color: #3453a3;
+}
+
 :root[data-theme="light"] .wordmark small,
 :root[data-theme="light"] .nav-links > a,
 :root[data-theme="light"] .hero-eyebrow,
