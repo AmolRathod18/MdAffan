@@ -1,0 +1,123 @@
+:root[data-theme="light"] {
+  color-scheme: light;
+  color: #18232d;
+  background: #f5f7f8;
+  --bg: #f5f7f8;
+  --panel: #ffffff;
+  --line: rgba(24, 35, 45, .13);
+  --muted: #65717c;
+  --cyan: #087f75;
+  --blue: #5269c5;
+}
+
+.theme-toggle {
+  width: 36px;
+  height: 36px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: transparent;
+  color: var(--cyan);
+  cursor: pointer;
+  transition: background .2s, border-color .2s, color .2s;
+}
+
+.theme-toggle:hover {
+  background: #65e0d012;
+  border-color: #65e0d055;
+}
+
+:root[data-theme="light"] body,
+:root[data-theme="light"] .hero,
+:root[data-theme="light"] .about-section,
+:root[data-theme="light"] .skills-section,
+:root[data-theme="light"] .workflow-section,
+:root[data-theme="light"] .projects-section,
+:root[data-theme="light"] .certificates-section,
+:root[data-theme="light"] .education-section,
+:root[data-theme="light"] .contact-section {
+  background: #f5f7f8;
+}
+
+:root[data-theme="light"] .hero {
+  background-image: radial-gradient(ellipse at 81% 43%, rgba(8, 127, 117, .09), transparent 36%), linear-gradient(135deg, #fbfcfd, #f0f3f5);
+}
+
+:root[data-theme="light"] .navbar-scrolled {
+  background: rgba(248, 250, 251, .88);
+}
+
+:root[data-theme="light"] .wordmark,
+:root[data-theme="light"] .hero h1,
+:root[data-theme="light"] .section-title,
+:root[data-theme="light"] .journey-text h3,
+:root[data-theme="light"] .skill-card h3,
+:root[data-theme="light"] .project-title-row h3,
+:root[data-theme="light"] .contact-heading h2,
+:root[data-theme="light"] .form-heading h3 {
+  color: #18232d;
+}
+
+:root[data-theme="light"] .wordmark small,
+:root[data-theme="light"] .nav-links > a,
+:root[data-theme="light"] .hero-eyebrow,
+:root[data-theme="light"] .hero-desc,
+:root[data-theme="light"] .about-copy p,
+:root[data-theme="light"] .about-location,
+:root[data-theme="light"] .journey-text p,
+:root[data-theme="light"] .skill-tags span,
+:root[data-theme="light"] .project-info > p,
+:root[data-theme="light"] .contact-heading p {
+  color: #5e6b76;
+}
+
+:root[data-theme="light"] .nav-links .nav-connect,
+:root[data-theme="light"] .button-secondary {
+  color: #263640;
+  border-color: rgba(24, 35, 45, .18);
+  background: rgba(255, 255, 255, .55);
+}
+
+:root[data-theme="light"] .surface,
+:root[data-theme="light"] .journey-card,
+:root[data-theme="light"] .skill-card,
+:root[data-theme="light"] .project-card,
+:root[data-theme="light"] .contact-form-wrap {
+  background: #ffffff;
+  border-color: rgba(24, 35, 45, .12);
+  box-shadow: 0 12px 36px rgba(26, 43, 54, .06);
+}
+
+:root[data-theme="light"] .title-muted,
+:root[data-theme="light"] .section-number,
+:root[data-theme="light"] .workflow-number,
+:root[data-theme="light"] .scroll-cue,
+:root[data-theme="light"] .hero-index,
+:root[data-theme="light"] .project-count,
+:root[data-theme="light"] .contact-detail small,
+:root[data-theme="light"] .contact-form-wrap label {
+  color: #687680;
+}
+
+:root[data-theme="light"] .workflow-section {
+  border-color: rgba(24, 35, 45, .08);
+}
+
+:root[data-theme="light"] .workflow-label,
+:root[data-theme="light"] .contact-detail b {
+  color: #34434d;
+}
+
+:root[data-theme="light"] .contact-form-wrap input,
+:root[data-theme="light"] .contact-form-wrap textarea {
+  color: #18232d;
+  background: #f7f9fa;
+  border-color: rgba(24, 35, 45, .16);
+}
+
+:root[data-theme="light"] .contact-form-wrap input::placeholder,
+:root[data-theme="light"] .contact-form-wrap textarea::placeholder {
+  color: #8a969e;
+}
